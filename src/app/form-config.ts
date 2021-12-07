@@ -1,16 +1,17 @@
 import { DynamicFieldModel } from "./dynamic-field";
 
 export const FormConfig: DynamicFieldModel[] = [
-  { label: "Text", name: "text", type: "text" },
+  { label: "Account Name", name: "Account Name", type: "text" },
+  { label: "Address", name: "Address", type: "text" },
   {
-    label: "Select",
-    name: "select",
+    label: "Exception Type",
+    name: "Exception Type",
     type: "select",
     options: [
-      { label: "Option 1", value: "1" },
-      { label: "Option 2", value: "2" },
-      { label: "Option 3", value: "3" }
+      { label: "Cash Call", value: "Cash Call" },
+      { label: "Buy Back Restriction", value: "Buy Back Restriction" },
+      { label: "Cash Account Liquidation", value: "Cash Account Liquidation" }
     ]
   },
-  { label: "Datepicker", name: "datepicker", type: "datepicker" }
+  { label: "Trade Date", name: "Trade Date", type: "datepicker" }
 ];
