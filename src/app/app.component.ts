@@ -1,10 +1,9 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: "example-demo",
+  template: `
+  <app-dynamic-form></app-dynamic-form>
+  `
 })
-export class AppComponent {
-  title = 'Dynamic-DatePicker';
-}
+export class AppComponent {}
